@@ -1,0 +1,92 @@
+body {
+	background-color: darkgrey;
+	font-family:roboto,calibri;
+	font-weight: bold;
+	color:white;
+	font-size: 10px;
+}
+
+.green {
+	background-color: #13B2A3;
+}
+
+.red {
+	background-color: #F16F51;
+}
+
+.yellow {
+	background-color: #FDB54C;
+}
+
+.lightgrey {
+	background-color: #F6F6F6;
+}
+
+#interview{
+	background-color: Orange;
+}
+
+.tile{
+	width: 170px;
+	height: 150px;
+	border:2px solid lightblue;
+	padding: 5px;
+	margin: 10px;
+	float:left;
+}
+
+.tile-double{
+	width: 380px;
+	height: 150px;
+	border:2px solid lightblue;
+	padding: 5px;
+	margin: 10px;
+	float:left;
+}
+
+.tile-list a{
+	color: white;
+	text-decoration: none;
+}
+
+.tile-list li{
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+ul.tile-list li{
+	list-style-type: disc;
+}
+
+ol.tile-list li{
+	list-style-type: decimal;
+}
+
+
+.city-image{
+	background-image:url("GM2.jpg");
+}
+
+#main-container{
+	max-width: 900px;
+	min-width: 500px;
+	
+	margin: 0 auto;
+}
+
+#user-table {
+	margin: 10px auto;
+	font-weight: normal;
+	width: 100%;
+}
+
+#user-table th{
+	border-bottom: 1px solid #F6F6F6;
+	padding: 2px;
+	text-align:center;
+}
+
+#user-table td{
+	padding: 2px;
+	text-align:center;
+}
